@@ -2,11 +2,13 @@
 //
 
 #include "stdafx.h"
+#include <stdio.h>
 
 
 int main()
 {
-	cout << "Hey!" << endl;
+	printf("Hello\n");
+	getchar();
     return 0;
 }
 
